@@ -4,6 +4,9 @@ spring:
     name: @project.name@
   main:
     allow-bean-definition-overriding: true
+  jpa:
+    hibernate:
+      ddl-auto: none
 
 # Swagger Documentation
 swagger:

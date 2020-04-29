@@ -1,4 +1,4 @@
-package com.richard.danis.www.room.init;
+package com.richard.danis.www.reservation.init;
 
 import com.fasterxml.classmate.TypeResolver;
 import org.springframework.beans.factory.annotation.Value;

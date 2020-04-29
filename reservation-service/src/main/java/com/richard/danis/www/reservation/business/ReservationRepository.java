@@ -1,4 +1,4 @@
-package com.richard.danis.www.room.business;
+package com.richard.danis.www.reservation.business;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

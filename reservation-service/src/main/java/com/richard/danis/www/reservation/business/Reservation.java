@@ -1,4 +1,4 @@
-package com.richard.danis.www.room.business;
+package com.richard.danis.www.reservation.business;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

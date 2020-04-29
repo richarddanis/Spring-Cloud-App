@@ -1,4 +1,4 @@
-package com.richard.danis.www.room;
+package com.richard.danis.www.reservation;
 
 import org.springframework.boot.ResourceBanner;
 import org.springframework.boot.SpringApplication;

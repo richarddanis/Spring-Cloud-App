@@ -1,4 +1,4 @@
-package com.richard.danis.www.room.controller;
+package com.richard.danis.www.reservation.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

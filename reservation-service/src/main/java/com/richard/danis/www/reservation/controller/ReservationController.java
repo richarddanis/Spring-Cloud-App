@@ -1,7 +1,7 @@
-package com.richard.danis.www.room.controller;
+package com.richard.danis.www.reservation.controller;
 
-import com.richard.danis.www.room.business.Reservation;
-import com.richard.danis.www.room.business.ReservationRepository;
+import com.richard.danis.www.reservation.business.Reservation;
+import com.richard.danis.www.reservation.business.ReservationRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/reservations")
-public class ReservationWebServices {
+public class ReservationController {
 
     private ReservationRepository repository;
 
-    public ReservationWebServices(ReservationRepository repository) {
+    public ReservationController(ReservationRepository repository) {
         this.repository = repository;
     }
 
