@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/guest-service/sandbox.iml" filepath="$PROJECT_DIR$/guest-service/sandbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/reservation-service/sandbox (1).iml" filepath="$PROJECT_DIR$/reservation-service/sandbox (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/room-service/sandbox (2).iml" filepath="$PROJECT_DIR$/room-service/sandbox (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/sandbox (3).iml" filepath="$PROJECT_DIR$/config-server/sandbox (3).iml" />
     </modules>
   </component>
 </project>

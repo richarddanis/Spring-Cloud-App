@@ -17,7 +17,7 @@
     <properties>
         <java.version>11</java.version>
 
-        <start-class>com.richard.danis.www.room.Starter</start-class>
+        <start-class>com.richard.danis.www.reservation.Starter</start-class>
 
         <project.jdk.version>${java.version}</project.jdk.version>
         <project.sourceEncoding>UTF-8</project.sourceEncoding>

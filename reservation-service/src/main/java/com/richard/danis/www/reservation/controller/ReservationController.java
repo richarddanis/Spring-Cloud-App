@@ -11,19 +11,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/reservations")
 public class ReservationController {
 
-    private ReservationRepository repository;
+    private final ReservationRepository reservationRepository;
 
-    public ReservationController(ReservationRepository repository) {
-        this.repository = repository;
+    public ReservationController(ReservationRepository reservationRepository) {
+        this.reservationRepository = reservationRepository;
     }
 
     @GetMapping
     public Iterable<Reservation> getAllReservations() {
-        return this.repository.findAll();
+        return this.reservationRepository.findAll();
     }
 
     @GetMapping("/{id}")
     public Reservation getReservation(@PathVariable("id") long id) {
-        return this.repository.findById(id).get();
+        return this.reservationRepository.findById(id).get();
     }
 }
