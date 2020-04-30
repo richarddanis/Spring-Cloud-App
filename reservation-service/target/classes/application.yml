@@ -1,0 +1,16 @@
+# Spring Configuration
+spring:
+  application:
+    name: reservation-service
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+# Swagger Documentation
+swagger:
+  service:
+    version: "1.0.0"
+    title: ${spring.application.name}
+    description: "Skeleton app swagger"
