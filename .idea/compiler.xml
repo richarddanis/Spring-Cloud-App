@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="reservation-services" />
-        <module name="config-server" />
         <module name="sandbox (1)" />
         <module name="sandbox (2)" />
         <module name="sandbox" />
+        <module name="config-server" />
         <module name="sandbox (3)" />
       </profile>
     </annotationProcessing>

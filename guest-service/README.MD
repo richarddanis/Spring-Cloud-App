@@ -11,6 +11,8 @@
 ## Running the Application
 Run or debug the app with the `Starter` main class at the root of your Java package hierarchy.
 
+You must run first the config-server, if you want to use config properties.
+
 You must add the following VM options in order for logging to work properly:
 ```
 -Dapplication.home=. -Dspring.profiles.active=dev -Dapplication.environment=dev

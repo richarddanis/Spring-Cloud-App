@@ -2,13 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4d3b28e-b78d-47db-95ce-b1ecf539d065" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_RC2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RC2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/guest-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guest-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/room-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/guestservice.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/buildtools/checkstyle/checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/buildtools/checkstyle/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/richard/danis/www/skeleton/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/richard/danis/www/eureka/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/richard/danis/www/skeleton/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/richard/danis/www/eureka/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/richard/danis/www/skeleton/init/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/richard/danis/www/eureka/init/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/richard/danis/www/skeleton/StarterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/richard/danis/www/eureka/StarterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-service/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/guest-service/README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guest-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guest-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-service/src/main/java/com/richard/danis/www/guest/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/guest-service/src/main/java/com/richard/danis/www/guest/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/guest-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/room-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +111,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -54,21 +145,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/reservation-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BenchTime\Spring Cloud\guest-service\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BenchTime\Spring Cloud\room-service\src\main\resources" />
       <recent name="D:\BenchTime\Spring Cloud\reservation-service\src\main\resources" />
       <recent name="D:\BenchTime\Spring Cloud\room-service\src\main\java\com\richard\danis\www\room" />
       <recent name="D:\BenchTime\Spring Cloud\reservation-service\src\main\java\com\richard\danis\www\room" />
-      <recent name="D:\BenchTime\Spring Cloud\room-service\src\main\resources" />
-      <recent name="D:\BenchTime\Spring Cloud\guest-service\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\BenchTime\Spring Cloud\guest-service\src\main\resources" />
     </key>
   </component>
@@ -78,8 +172,20 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="Config-server" />
+              <option value="ConfigServerApplication (1)" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication (2)">
+  <component name="RunManager" selected="Spring Boot.GuestService">
     <configuration name="All in sandbox (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sandbox (3)" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,6 +200,20 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Config Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.richard.danis.www.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.richard.danis.www.configserver.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Config-server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -117,15 +237,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="config-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.richard.danis.www.configserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.richard.danis.www.configserver.ConfigServerApplication" />
+    <configuration name="Eureka Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sandbox (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.richard.danis.www.eureka.Starter" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,17 +284,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.All in sandbox (3)" />
       <item itemvalue="Spring Boot.GuestService" />
       <item itemvalue="Spring Boot.Config-server" />
       <item itemvalue="Spring Boot.ReservationService" />
       <item itemvalue="Spring Boot.RoomService" />
       <item itemvalue="Spring Boot.ConfigServerApplication (1)" />
-      <item itemvalue="JUnit.All in sandbox (3)" />
-      <item itemvalue="Spring Boot.ConfigServerApplication (2)" />
+      <item itemvalue="Spring Boot.Config Server" />
+      <item itemvalue="Spring Boot.Eureka Server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigServerApplication (2)" />
+        <item itemvalue="Spring Boot.Config Server" />
         <item itemvalue="Spring Boot.RoomService" />
         <item itemvalue="Spring Boot.ReservationService" />
         <item itemvalue="JUnit.All in sandbox (3)" />
@@ -203,7 +319,8 @@
       <workItem from="1588155151409" duration="45000" />
       <workItem from="1588155238618" duration="4565000" />
       <workItem from="1588163188162" duration="592000" />
-      <workItem from="1588163813473" duration="3057000" />
+      <workItem from="1588163813473" duration="4047000" />
+      <workItem from="1588223162472" duration="4870000" />
     </task>
     <servers />
   </component>
@@ -222,10 +339,14 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="0" width="702" height="824" key="#GuestService" timestamp="1588166315774">
+    <state x="424" y="0" width="702" height="824" key="#ConfigServerApplication_(2)" timestamp="1588223644755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="702" height="824" key="#GuestService/0.0.1536.824@0.0.1536.824" timestamp="1588166315774" />
+    <state x="424" y="0" width="702" height="824" key="#ConfigServerApplication_(2)/0.0.1536.824@0.0.1536.824" timestamp="1588223644755" />
+    <state x="424" y="0" width="702" height="824" key="#GuestService" timestamp="1588227708970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="0" width="702" height="824" key="#GuestService/0.0.1536.824@0.0.1536.824" timestamp="1588227708970" />
     <state x="249" y="0" key="#Project_Structure" timestamp="1588154909310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,10 +355,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="424" y="0" width="702" height="824" key="#RoomService/0.0.1536.824@0.0.1536.824" timestamp="1588161320348" />
-    <state x="424" y="0" width="702" height="824" key="#Starter" timestamp="1588161344042">
+    <state x="424" y="0" width="702" height="824" key="#Starter" timestamp="1588227498321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="702" height="824" key="#Starter/0.0.1536.824@0.0.1536.824" timestamp="1588161344042" />
+    <state x="424" y="0" width="702" height="824" key="#Starter/0.0.1536.824@0.0.1536.824" timestamp="1588227498321" />
     <state x="424" y="0" width="702" height="824" key="#Starter_(2)" timestamp="1588162683375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,70 +375,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="298" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1588154552332" />
-    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1588164339757">
+    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1588226055387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588164339757" />
-    <state width="1024" height="364" key="GridCell.Tab.0.bottom" timestamp="1588166885055">
+    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588226055387" />
+    <state width="1024" height="202" key="GridCell.Tab.0.bottom" timestamp="1588229796472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588166885055" />
-    <state width="1024" height="364" key="GridCell.Tab.0.center" timestamp="1588166885055">
+    <state width="1024" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588229796472" />
+    <state width="1024" height="202" key="GridCell.Tab.0.center" timestamp="1588229796472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588166885055" />
-    <state width="1024" height="364" key="GridCell.Tab.0.left" timestamp="1588166885055">
+    <state width="1024" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588229796472" />
+    <state width="1024" height="202" key="GridCell.Tab.0.left" timestamp="1588229796472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588166885055" />
-    <state width="1024" height="364" key="GridCell.Tab.0.right" timestamp="1588166885055">
+    <state width="1024" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588229796472" />
+    <state width="1024" height="202" key="GridCell.Tab.0.right" timestamp="1588229796472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588166885055" />
-    <state width="1024" height="364" key="GridCell.Tab.1.bottom" timestamp="1588166885055">
+    <state width="1024" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588229796472" />
+    <state width="1024" height="202" key="GridCell.Tab.1.bottom" timestamp="1588229796473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588166885055" />
-    <state width="1024" height="364" key="GridCell.Tab.1.center" timestamp="1588166885055">
+    <state width="1024" height="202" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588229796473" />
+    <state width="1024" height="202" key="GridCell.Tab.1.center" timestamp="1588229796472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588166885055" />
-    <state width="1024" height="364" key="GridCell.Tab.1.left" timestamp="1588166885055">
+    <state width="1024" height="202" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588229796472" />
+    <state width="1024" height="202" key="GridCell.Tab.1.left" timestamp="1588229796472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588166885055" />
-    <state width="1024" height="364" key="GridCell.Tab.1.right" timestamp="1588166885055">
+    <state width="1024" height="202" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588229796472" />
+    <state width="1024" height="202" key="GridCell.Tab.1.right" timestamp="1588229796473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588166885055" />
-    <state width="1024" height="364" key="GridCell.Tab.2.bottom" timestamp="1588166497861">
+    <state width="1024" height="202" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588229796473" />
+    <state width="1024" height="371" key="GridCell.Tab.2.bottom" timestamp="1588229266401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588166497861" />
-    <state width="1024" height="364" key="GridCell.Tab.2.center" timestamp="1588166497861">
+    <state width="1024" height="371" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588229266401" />
+    <state width="1024" height="371" key="GridCell.Tab.2.center" timestamp="1588229266401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1588166497861" />
-    <state width="1024" height="364" key="GridCell.Tab.2.left" timestamp="1588166497861">
+    <state width="1024" height="371" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1588229266401" />
+    <state width="1024" height="371" key="GridCell.Tab.2.left" timestamp="1588229266401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1588166497861" />
-    <state width="1024" height="364" key="GridCell.Tab.2.right" timestamp="1588166497861">
+    <state width="1024" height="371" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1588229266401" />
+    <state width="1024" height="371" key="GridCell.Tab.2.right" timestamp="1588229266401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="364" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1588166497861" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1588165196255">
+    <state width="1024" height="371" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1588229266401" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1588226127306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1588165196255" />
-    <state x="439" y="117" key="NewModule_or_Project.wizard" timestamp="1588164340998">
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1588226127306" />
+    <state x="439" y="117" key="NewModule_or_Project.wizard" timestamp="1588226057344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="117" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1588164340998" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1588163832639">
+    <state x="439" y="117" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1588226057344" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1588226982143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588163832639" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588226982143" />
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588154573373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
