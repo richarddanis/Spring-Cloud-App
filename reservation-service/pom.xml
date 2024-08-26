@@ -31,7 +31,7 @@
         <run.spring.profiles.active>${run.application.environment}</run.spring.profiles.active>
 
         <!-- Swagger -->
-        <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+        <springfox-swagger2.version>2.10.0</springfox-swagger2.version>
 
         <!-- Quality check -->
         <maven-pmd-plugin.version>3.13.0</maven-pmd-plugin.version>
